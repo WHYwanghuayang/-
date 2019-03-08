@@ -1,0 +1,220 @@
+/*居中图片*/
+.ghead{
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+}
+.ghead img{
+	width: 100%;
+	height: 600px;
+}
+/*展示商品*/
+.gtwo {
+	width: 1255.2px;
+	margin: 0 auto;
+}
+.gtwo img{
+	width: 1100px;
+	height: 367.5px;
+	margin-top: 20px;
+	margin-left: 100px;
+	
+}
+.gthree{
+	width: 1255.2px;
+	height: 318px;
+	margin: 0 auto;
+}
+.gthree img{
+	width: 1000px;
+	height: 318px;
+	margin-left: 140px;
+	margin-top: 20px;
+}
+/*新品展示*/
+.gfour{
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+}
+.gfour h2{
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.gfive{
+	width: 75%;
+	margin: 0 auto;
+	height: 530px;
+}
+.gfive ul {
+	float: left;
+	width: 1255px;
+	height: 530px;
+}
+.gfive li{
+	float: left;
+	width: 460px;
+	height: 530px;
+	margin-left: 150px;
+}
+
+.gfive img{
+	width: 460px;
+	height: 530px;
+}
+.gfive a:hover{
+	display: block;
+	transform:scale(1.2)
+}
+.gsix{
+	width: 75%;
+	margin: 0 auto;
+	height: 530px;
+}
+.gsix ul {
+	float: left;
+	width: 1255px;
+	height: 530px;
+}
+.gsix li{
+	float: left;
+	width: 460px;
+	height: 530px;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+.gsix img{
+	width: 460px;
+	height: 530px;
+}
+.gseven{
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+}
+.gseven h2{
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.geight{
+	width: 75%;
+	margin: 0 auto;
+	height: 570px;
+}
+.geight ul {
+	float: left;
+	width: 1255px;
+	height: 570px;
+}
+.geight li{
+	float: left;
+	width: 460px;
+	height: 570px;
+	margin-left: 150px;
+}
+.geight img{
+	width: 460px;
+	height: 570px;
+}
+.gnine{
+	width: 75%;
+	margin: 0 auto;
+	height: 570px;
+}
+.gnine ul {
+	float: left;
+	width: 100%;
+	height: 570px;
+}
+.gnine li{
+	float: left;
+	width: 460px;
+	height: 570px;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+.gnine img{
+	width: 460px;
+	height: 570px;
+}
+.gten{
+	width: 90%;
+	margin: 0 auto;
+	/*background: red;*/
+	height: 430px;
+	margin: 0 auto;
+	}
+.gten ul {
+	float: left;
+	width: 100%px;
+	height: 430px;
+	
+}	
+.gten li{
+	float: left;
+	width: 280px;
+	height: 430px;
+	margin-top: 80px;
+	margin-left: 190px;
+	
+	
+	}
+.geleven{
+	width: 100%;
+	margin: 0 auto;
+	height: 170px;
+	margin-top: 100px;
+}
+.geleven img{
+	width: 100%;
+}
+.gtwelve{
+	width: 100%;
+	margin: 0 auto;
+	height: 110px;
+	margin-top: 140px;
+}
+.gtwelve h2{
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
+.gtwelve p{
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+}
+.gthirteen{
+	float: left;
+	width: 100%;
+	padding-left: 120px;
+	/*background: red;*/
+	margin: 0 auto;
+	height: 400px;
+}
+.gthirteen div{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-left: 140px;
+}
+.gthirteen a{
+	color: black;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.button{
+	width: 150px;
+	height: 30px;
+	margin-left: 10px;
+	
+}
+/*鼠标放在链接图片上 图片放大*/
+.gthirteen img:hover{
+	display: block;
+	transform: scale(1.2);
+}

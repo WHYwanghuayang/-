@@ -1,0 +1,169 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+/*整个界面内外边距为0，列表清除项目标记*/
+
+a{text-decoration:none}
+a{color: black; }
+a:hover{ color:red}
+/*超链接样式*/
+
+header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	width: 100%;
+	background-color: #008000;
+}
+/*固定定位*/
+header>.top{
+	width: 100%;
+	height: 42px;
+	background-color: #000000;
+}
+header>.top2{
+	width: 100%;
+	height: 55px;
+	background-color: white;
+}
+.top2_1{
+	height: 55px;
+	width: 70px;
+	float: left;
+	margin-right: 20px;
+	/*background: red url(../img/logo.png);*/
+}
+.top2_2{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 30px;
+}
+/*搜索*/
+.search{
+	width: 360px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    text-indent: 1em;
+    margin-top: 7px;
+}
+#search{
+	float: right;
+}
+#search input{
+	margin-right: 50px;
+	
+}
+/*聚焦时候无样式*/
+input:focus { outline: none; } 
+#search span{
+	/*margin-left: 20px;*/
+	margin-right: 40px;
+	font-size: 14px;
+}
+/*导航*/
+.air{
+	width: 100%;
+	height: 95px;
+	
+}
+/*注册 即送VIP*/
+.top{
+	text-align: center;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+}
+.find{
+	width: 150px;
+	height: 42px;
+	/*background: red;*/
+	float: right;
+	font-size: 12px;
+}
+.find2{
+	color: white;
+
+}
+.find2:hover{
+		text-decoration: underline;
+}
+/*因固定定位被遮挡的部分*/
+footer{
+	width: 100%;
+	height: 445px;
+	background-color: #000000;
+	color: white;
+}
+footer a{
+	color: darkgrey;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+footer>.dingyue{
+	height: 75px;
+	/*background: darkgoldenrod;*/
+	text-align: center;
+	font-size: 16px;
+	line-height: 75px;
+
+}
+footer>.dingyue>span{
+	margin: 0px 100px;
+}
+footer>.bangzhu{
+	height: 255px;
+	/*background: antiquewhite;*/
+	border: 1px solid dimgray;
+}
+.bangzhu>ul{
+	float: left;
+	line-height: 25px;
+	width: 250px;
+	height: 255px;
+	color: darkgrey;
+	margin-left: 10px;
+	/*background-color: rosybrown;*/
+	text-align: center;
+}
+#bangzhu1{
+	margin-left: 400px;
+}
+.bangzhu1{
+	margin-bottom: 20px;
+	line-height: 55px;
+}
+.bangzhu a{
+	font-size: 14px;
+}
+.ihpone{
+	text-align: center;
+	color: darkgrey;
+	padding-top: 30px;
+	line-height: 25px;
+}
+
+/*脚步的高和宽*/
+.maolianjie{
+	position: fixed;
+	left: 95%;
+	top: 96%;
+	opacity: 0.9;
+	height: 40px;
+	width: 40px;
+}
+.maolianjie img{
+	height: 40px;
+	width: 40px;
+}
+/*以上为锚链接*/
+.center{
+	width: 100%;
+	height: 1968px;
+	/*height: 2100px;*/
+	/*background-color: darkorange*/
+}

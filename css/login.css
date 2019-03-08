@@ -1,0 +1,125 @@
+@charset "utf-8";
+/*页面初始*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+span{
+	color: red;
+}
+/*login-head*/
+.login-head{
+	width: 100%;
+	height: 84px;
+	line-height: 84px;
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-family:simsun;
+	background-color:#ebebeb;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+/*login-body*/
+.login-body{
+	width: 1200px;
+	height: 622px;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+}
+/*登录*/
+.login-login1{
+	width: 570px;
+	height: 418px;
+	background-color: #ebebeb;
+}
+.login-login1 form{
+	padding-top: 20px;
+	padding-left: 15px;
+}
+.login-login1-1{
+	width: 570px;
+	height: 62px;
+}
+.login-p,.enroll-e,.enroll-ep,.enroll-n,.enroll-p,.enroll-yp,.login-e{
+	display: block;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-weight: 300;
+    appearance: none;
+    z-index: 100;
+    width:500px;
+    height: auto;
+    color: #232323;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 6px 15px 8px;
+    font-style: normal;
+}
+.login-login1-chongshemima{
+	margin-right: 20px;
+	float: right;
+}
+.chkshowpassword{
+	width: 16px;
+	height: 16px;
+}
+.login-login1-2{
+	position: relative;
+}
+.login-btn{
+	position: absolute;
+	color: #fff;
+    background-color: #cf0a2c;
+	left: 20px;
+	width: 67px;
+	height: 33px;
+	bottom: -150px;
+	border: red;
+}
+.login-login2{
+	margin-top: 30px;
+	width: 600px;
+	height: 138px;
+}
+/*注册*/
+.login-enroll{
+	width: 570px;
+	height: 622px;
+	background-color: #ebebeb;
+	position: absolute;
+	right: 5px;
+	top: 0px;
+}
+.login-enroll1{
+	padding-top: 20px;
+	padding-left: 15px;
+}
+.login-enroll2{
+	width: 420px;
+	height: 31px;
+	font-size: 12px;
+}
+.login-enroll3{
+	width: 420px;
+	height:67px ;
+	font-size: 12px;
+	position: relative;
+}
+.login-enroll4{
+	position: absolute;
+	left: 20px;
+	bottom: 35px;
+}
+.enroll-btn{
+	position: absolute;
+	color: #fff;
+    background-color: #cf0a2c;
+	left: 20px;
+	width: 67px;
+	height: 33px;
+	border: red;
+
+}

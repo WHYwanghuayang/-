@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录注册 czb</title>
+		<link rel="stylesheet" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gonggong.css"/>
+	</head>
+	<body>
+		<!--head-->
+		<header>
+				<div class="max top">
+					<span> 注册即送350元礼券！全场包邮，<u>点击查看详情</u>！</span>
+					<div class="find">|&nbsp;&nbsp;&nbsp;<a href="#" class="find2"> 查找商店 </a></div>
+				</div>
+				<nav class="max top2">
+					<div class="top2_1"><a href="index.html"><img src="img/logo.png" /> </a> </div>
+					<div class="top2_2"><a href="#"><h4>男子</h4> </a></div>
+					<div class="top2_2"><a href="#"><h4>女子</h4> </a></div>
+					<div class="top2_2"><a href="#"><h4>男孩</h4> </a></div>
+					<div class="top2_2"><a href="#"><h4>女孩</h4> </a></div>
+					<div class="top2_2 	"><a href="dingzhi.html"><h4>NB1定制</h4> </a></div>
+				
+					<div class="top2_2" id="search">
+						<form>
+							<input type="search" placeholder="搜索" class="search"/>
+							<span><a href="login.html">登录/注册</a> </span>
+							<span><a href="#">您的购物车是空的</a> </span>
+						</form>
+					</div>
+				</nav>
+			</header>
+			<div class="air"><a name="mao"></a></div>
+		<!--login-head-->
+		<div class="login-head">
+			<h1>登录或者注册新的账户</h1>
+		</div>
+		<!--body-->
+		<div class="login-body">
+		<!--登录-->
+		<div class="login-login">
+			<div class="login-login1">
+				<form>
+					<p style="margin-bottom: 10px; font-size: 20px;">登录</p>
+						<p>
+							<span>*</span>
+							<label for="email">电子邮箱地址</label>
+						</p>
+						<p>
+							<input type="email" id="email" name="email"  class="login-e" required="required"/>
+						</p><br />
+						<p>
+							<span>*</span>
+							<label for="password">密码</label>
+						</p>
+						<p>
+							<input type="password" id="password" name="password" class="login-p" required="required"/>
+						</p><br />
+						<div class="login-login1-1">
+							<div class="login-login1-chongshemima">
+								<a style="color: red;text-decoration: none; " id="PasswordReset" title="重新设置您的密码" href="/passwordreset">重新设置您的密码</a>
+							</div>
+							<div class="login-login1-2">
+								<div>
+								<input type="checkbox" class="chkshowpassword" id="chkshowpassword" name="chkshowpassword" required="required"/>
+								<span class="custom checkbox"></span>
+								<label class="checkbox-left" for="chkshowpassword">
+								<span style="color: black;">显示密码</span>
+								</label>
+								</div>
+								<div>
+								<input type="checkbox" class="chkshowpassword" id="jizhu" name="jizhu" required="required"/>
+								<span class="custom checkbox"></span>
+								<label class="checkbox-left" for="jizhu">
+								<span style="color: black;">记住</span>
+								</label>
+								</div>
+								<button type="submit" class="login-btn">登录</button>
+							</div>	
+						</div>
+				</form>
+			</div>
+			<div class="login-login2">
+				<h3>为什么注册?</h3>
+				<ul style="font-size: 12px;color: gray;">
+					<li style="padding-top: 10px;">- 获得新品上市信息和最新活动信息</li>
+					<li>- 接收发货信息</li>
+					<li>- 方便查阅订单状态</li>
+					<li>- 管理您的收货和发票地址</li>
+				</ul>
+			</div>
+		</div>
+		<!--注册-->
+		<div class="login-enroll">
+			<div class="login-enroll1">
+				<form>
+					<p style="margin-bottom: 10px; font-size: 20px;">注册账户</p>
+						<p>
+							<span>*</span>
+							<label for="name">姓名</label>
+						</p>
+						<p>
+							<input type="text" id="name" name="name" class="enroll-n" required="required"/>
+						</p><br />
+						<p>
+							<span>*</span>
+							<label for="email">电子邮箱</label>
+						</p>	
+						<p>
+							<input type="email" id="email" name="email" class="enroll-e" required="required"/>
+						</p><br />
+						<p>
+							<span>*</span>
+							<label for="email">验证邮箱</label>
+						</p>
+						<p>
+							<input type="email" id="email" name="email" class="enroll-ep" required="required"/>
+						</p><br />
+						<p>
+							<span>*</span>
+							<label for="password">密码</label>
+						</p>
+						<p>
+							<input type="password" id="password" name="password" class="enroll-p" required="required"/>
+						</p><br />
+						<p>
+							<span>*</span>
+							<label for="password">验证密码</label>
+						</p>
+						<p>
+							<input type="password" id="password" name="password" class="enroll-yp" required="required"/>
+						</p><br />
+			</form>
+			<div class="login-enroll2">
+				<input type="checkbox" class="chkshowpassword" id="chkshowpassword1" name="chkshowpassword1" required="required"/>
+			    <span class="custom checkbox"></span>
+				<label class="checkbox-left" for="chkshowpassword1">
+				<span style="color: black;">显示密码</span>
+			</div>
+			<div class="login-enroll3">
+				<input type="checkbox" class="chkshowpassword" />
+				<div class="login-enroll4">我承诺点击(提交)按钮即表示我已阅读,理解并接受隐私政策,使用条款及退货政策的详细内容。</div></span>
+			</div>
+			<button type="submit" class="enroll-btn">注册</button>
+		</div>
+		</div>
+		</div>
+		<!--页面底部-->
+			<footer>
+				<div class="dingyue"><span><a>查找店铺</a> </span><span><a> 订阅资源</a></span> </div>
+				<div class="bangzhu">
+					<ul id="bangzhu1">
+						<li  class="bangzhu1">帮助中心 </li>
+						<li><a>购买须知</a></li>
+						<li><a>配送及费用</a></li>
+						<li><a>支付方式	</a></li>
+						<li><a>退货政策</a></li>
+					</ul>
+					<ul>
+						<li class="bangzhu1"> 我的订单</li>
+						<li><a>订单查询</a></li>
+						<li><a>关于发票</a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+					</ul>
+					<ul>
+						<li class="bangzhu1">关于NB </li>
+						<li><a>品牌故事</a></li>
+						<li><a>隐私政策</a></li>
+						<li><a>使用条款</a></li>
+						<li><a></a></li>
+					</ul>
+					<ul>
+						<li class="bangzhu1">保持联系 </li>
+						<li><a>QQ&nbsp;&nbsp;微信</a></li>
+						<li><a>客服热线</a></li>
+						<li><a>400-890-2877</a></li>
+						<li><a>客服工作时间</a></li>
+						<li><a>星期一——星期日</a> </li>
+						<li><a>9AM——10PM(北京时间 )</a> </li>
+					</ul>
+				</div>
+				<div class="ihpone">
+					 <span class="ihpone_1"> 2019@ New Balance 泸IPC备10207056号 泸公网安备 325487932200号</span><br />
+					 <span> 新百伦贸易(中国)有限公司 上海市静安区安静西路668号668广场6场 </span>
+				</div>
+			</footer>
+			<!--以下为锚链接固定定位-->
+			<div class="maolianjie">
+				<a href="#mao"><img src="img/maolianjie.png" /> </a>
+			</div>
+	</body>
+</html>
